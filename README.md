@@ -4,13 +4,13 @@ Bu proje, **C programlama dili** kullanılarak geliştirilmiş konsol tabanlı b
 
 ---
 
-## 🎯 Projenin Amacı
+## Projenin Amacı
 
 Fizikte sıkça kullanılan bazı temel deneylerin, gezegenlerin fiziksel koşullarına göre nasıl değiştiğini sayısal olarak incelemek ve bu farkları karşılaştırmalı şekilde sunmaktır. Bu sayede fiziksel kavramların yalnızca teorik değil, **algoritmik bir bakış açısıyla** da anlaşılması hedeflenmiştir.
 
 ---
 
-## 🧪 İçerilen Deneyler
+## İçerilen Deneyler
 
 Programda kullanıcı tarafından seçilebilen toplam **9 farklı fizik deneyi** bulunmaktadır:
 
@@ -28,7 +28,7 @@ Deneyler, **Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs ve Neptün
 
 ---
 
-## ⚙️ Programın Çalışma Mantığı
+##  Programın Çalışma Mantığı
 
 Program çalıştırıldığında sırasıyla aşağıdaki adımlar izlenir:
 
@@ -43,7 +43,7 @@ Girilen veriler kontrol edilerek okunur. Geçersiz veya sayısal olmayan girişl
 
 ---
 
-## 📊 Risk Analizi
+##  Risk Analizi
 
 Hesaplanan deney sonuçları, gezegenler arasındaki farkların daha net görülebilmesi amacıyla **basit bir Z-score yaklaşımı** kullanılarak değerlendirilir.  
 Her gezegen için elde edilen sonuçlar:
@@ -54,5 +54,3 @@ Her gezegen için elde edilen sonuçlar:
 
 risk seviyeleriyle etiketlenir. Böylece kullanıcı, yalnızca sayısal sonuçları değil, bu sonuçların gezegenler arasındaki göreli durumunu da kolayca yorumlayabilir.
 
----
-i kullanıldığı için derleme sırasında `-lm` parametresi eklenmelidir.
